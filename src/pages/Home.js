@@ -136,7 +136,7 @@ export default class Home extends Component {
                   })}
               </Row>
             </Col>
-            <Hasil keranjangs={keranjangs} />
+            <Hasil keranjangs={keranjangs} getListKeranjang={this.getListKeranjang} />
           </Row>
         </Container>
       </div>
